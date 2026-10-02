@@ -26,7 +26,6 @@ target "multiarch" {
     "linux/ppc64le"
   ]
   tags = ["${IMAGE_NAME}:${TAG}"]
-  output = ["type=oci,dest=./hello-world.tar"]
 }
 
 target "local" {
